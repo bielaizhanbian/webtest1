@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="wsltxt:Web">
+    <output-path>$PROJECT_DIR$/out/artifacts/wsltxt_Web</output-path>
+    <root id="archive" name="wsltxt_Web.war">
+      <element id="artifact" artifact-name="wsltxt:Web exploded" />
+    </root>
+  </artifact>
+</component>

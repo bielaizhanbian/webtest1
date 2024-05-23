@@ -1,0 +1,87 @@
+.padding-0 {
+    padding: 0 !important;
+}
+
+.margin-topbot-10 {
+    margin: 10px 0px;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-20 {
+    margin: 20px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.hoverred:hover {
+    background-color: #F44336 !important;
+    color: white !important;
+}
+
+.tyan {
+    border-radius: 20px !important;
+}
+
+.pjbtn {
+    display: inline-block;
+    padding: 0 2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #26a69a;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.hidden {
+    display: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.overflowhidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.htzbmk {
+    width: 240px;
+    float: left;
+    position: fixed;
+    top: 72px;
+    bottom: 0px;
+}
+
+.htybmk {
+    position: fixed;
+    left: 240px;
+    right: 0;
+    top: 72px;
+    bottom: 0px;
+    overflow: auto;
+}
