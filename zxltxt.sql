@@ -13,7 +13,10 @@
 
  Date: 23/05/2024 10:03:00
 */
-
+create database wsltxt;
+drop database wsltxt;
+use  wsltxt;
+create database chatproject;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
@@ -31,7 +34,7 @@ CREATE TABLE `t_admin`  (
 -- ----------------------------
 -- Records of t_admin
 -- ----------------------------
-INSERT INTO `t_admin` VALUES (1, 'admin', 'admin');
+INSERT INTO `t_admin` VALUES (1, 'admin', 'root');
 INSERT INTO `t_admin` VALUES (2, '账号2', '密码2');
 INSERT INTO `t_admin` VALUES (3, '账号3', '密码3');
 INSERT INTO `t_admin` VALUES (4, '账号4', '密码4');
@@ -40,7 +43,7 @@ INSERT INTO `t_admin` VALUES (6, '账号6', '密码6');
 INSERT INTO `t_admin` VALUES (7, '账号7', '密码7');
 INSERT INTO `t_admin` VALUES (8, '账号8', '密码8');
 INSERT INTO `t_admin` VALUES (9, '账号9', '密码9');
-INSERT INTO `t_admin` VALUES (10, 'admin0', 'admin0');
+INSERT INTO `t_admin` VALUES (10, 'root', 'root');
 
 -- ----------------------------
 -- Table structure for t_category
@@ -174,7 +177,7 @@ CREATE TABLE `t_user`  (
 -- ----------------------------
 -- Records of t_user
 -- ----------------------------
-INSERT INTO `t_user` VALUES (1, 'admin', 'admin', '张三', '女', '邮箱1', '15874029071');
+INSERT INTO `t_user` VALUES (1, 'admin1', 'admin1', '张三', '女', '邮箱1', '15874029071');
 INSERT INTO `t_user` VALUES (2, '账号2', '密码2', '姓名2', '男', '邮箱2', '15751569631');
 INSERT INTO `t_user` VALUES (3, '账号3', '密码3', '姓名3', '男', '邮箱3', '15877882465');
 INSERT INTO `t_user` VALUES (4, '账号4', '密码4', '姓名4', '女', '邮箱4', '13813980223');
@@ -185,5 +188,6 @@ INSERT INTO `t_user` VALUES (8, '账号8', '密码8', '姓名8', '女', '邮箱8
 INSERT INTO `t_user` VALUES (9, '账号9', '密码9', '姓名9', '女', '邮箱9', '13574450158');
 INSERT INTO `t_user` VALUES (10, 'admin0', 'admin0', '姓名10', '女', '邮箱10', '16640035975');
 INSERT INTO `t_user` VALUES (11, '1', '1', '李四', '', '', '');
-
+INSERT INTO `t_user` VALUES (12, 'xtt', '1234', 'xtt', '', '', '');
+INSERT INTO `t_user` VALUES (11, 'xtq', '1234', 'xtq', '', '', '');
 SET FOREIGN_KEY_CHECKS = 1;
