@@ -1,26 +1,38 @@
 package org.mypro.entity;
 
+/**
+ * 公告实体类
+ */
 public class Notice {
-    private Integer id;
+    private Integer id; // 公告ID
 
-    private String title;
+    private String title; // 标题
 
-    private String pic;
+    private String pic; // 图片
 
-    private String comtent;
+    private String comtent; // 内容
 
-    private String addtime;
+    private String addtime; // 添加时间
 
-    private String publisher;
+    private String publisher; // 发布者
 
+    /**
+     * 获取公告ID
+     *
+     * @return 公告ID
+     */
     public Integer getId() {
         return id;
     }
 
+    /**
+     * 设置公告ID
+     *
+     * @param id 公告ID
+     */
     public void setId(Integer id) {
         this.id = id;
     }
-
     public String getTitle() {
         return title;
     }

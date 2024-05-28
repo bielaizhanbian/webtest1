@@ -230,8 +230,9 @@
 
 
                 <div class="form-group">
-                    <button class="btn btn-primary" qw-c="operationbutton">修改</button>
+                    <button class="btn btn-primary" qw-c="operationbutton" style="background-color: #d219cf; border-color: #d219cf;">修改</button>
                 </div>
+
             </form>
         </div>
     </div>
@@ -270,7 +271,7 @@
         line-height: 71px;
         padding-left: 20px;
         font-size: 21px;
-        color: #1976d2;
+        color: #d219cf;
     }
 
     .menu-show {
@@ -282,8 +283,8 @@
     }
 
     .menu-btn.active {
-        border-left: 4px solid #1976d2;
-        color: #1976d2 !important;
+        border-left: 4px solid #d219cf;
+        color: #d219cf !important;
     }
 
     .menu-btn.active:after {
@@ -356,7 +357,7 @@
     }
 
     #kv2jbf74 {
-        background: #1976d2;
+        background: #d219cf;
         min-height: 56px;
         position: fixed;
         width: 100%;

@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>菜单栏</title>
 </head>
-<body>
+<body style="background: url(resource/houtai/img/6.jpg);background-size: cover">
 <ul id="menu" qw-c="menu">
     <li style="font-size: 32px;margin-right: 500px;">在线聊天系统</li>
     <li qw-c="menu-item"><a qw-c="menu-itema menu-itemtext" href="index.action">首页</a></li>

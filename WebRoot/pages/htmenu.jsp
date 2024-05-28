@@ -6,13 +6,16 @@
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
+
+
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <title>菜单栏</title>
+
 </head>
-<body>
+<body >
 <c:if test="${sessionScope.identity == '管理员' }">
-    <body>
+
     <ul qw-c="menu">
 
         <li qw-c="menuitem"><a href="#" class="menu-btn" qw-c="menuitema"> <i class="fa fa-send"></i> <span
@@ -95,9 +98,9 @@
             </ul>
         </li>
     </ul>
-    </body>
+
 </c:if><c:if test="${sessionScope.identity == '用户' }">
-    <body>
+
     <ul qw-c="menu">
 
         <li qw-c="menuitem"><a href="#" class="menu-btn" qw-c="menuitema"> <i class="fa fa-send"></i> <span
@@ -161,7 +164,7 @@
             </ul>
         </li>
     </ul>
-    </body>
+
 </c:if>
 </body>
 </html>

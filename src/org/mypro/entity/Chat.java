@@ -1,32 +1,45 @@
 package org.mypro.entity;
 
+/**
+ * 聊天消息实体类
+ */
 public class Chat {
-    private Integer id;
+    private Integer id; // 消息ID
 
-    private Integer senderid;
+    private Integer senderid; // 发送者ID
 
-    private String senderidentity;
+    private String senderidentity; // 发送者身份
 
-    private String sendername;
+    private String sendername; // 发送者名称
 
-    private Integer receiverid;
+    private Integer receiverid; // 接收者ID
 
-    private String receiveridentity;
+    private String receiveridentity; // 接收者身份
 
-    private String receivername;
+    private String receivername; // 接收者名称
 
-    private String sendtime;
+    private String sendtime; // 发送时间
 
-    private String message;
+    private String message; // 消息内容
 
-    private String isread;
+    private String isread; // 是否已读
 
-    private String type;
+    private String type; // 消息类型
 
+    /**
+     * 获取消息ID
+     *
+     * @return 消息ID
+     */
     public Integer getId() {
         return id;
     }
 
+    /**
+     * 设置消息ID
+     *
+     * @param id 消息ID
+     */
     public void setId(Integer id) {
         this.id = id;
     }
