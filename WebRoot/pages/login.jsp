@@ -41,7 +41,7 @@
 <style>
 
     .btn-primary {
-        background: #1976d2;
+        background: #d219cf;
         width: 100%;
         height: 50px;
     }

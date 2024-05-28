@@ -1,28 +1,40 @@
 package org.mypro.entity;
 
+/**
+ * 好友实体类
+ */
 public class Friends {
-    private Integer id;
+    private Integer id; // 好友ID
 
-    private String user;
+    private String user; // 用户
 
-    private Integer userid;
+    private Integer userid; // 用户ID
 
-    private String mingzi;
+    private String mingzi; // 名字
 
-    private String category;
+    private String category; // 类别
 
-    private Integer categoryid;
+    private Integer categoryid; // 类别ID
 
-    private String state;
+    private String state; // 状态
 
+    /**
+     * 获取好友ID
+     *
+     * @return 好友ID
+     */
     public Integer getId() {
         return id;
     }
 
+    /**
+     * 设置好友ID
+     *
+     * @param id 好友ID
+     */
     public void setId(Integer id) {
         this.id = id;
     }
-
     public String getUser() {
         return user;
     }
