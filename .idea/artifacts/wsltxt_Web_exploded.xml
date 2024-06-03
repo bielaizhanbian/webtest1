@@ -5,7 +5,7 @@
       <element id="javaee-facet-resources" facet="wsltxt/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="wsltxt" />
+          <element id="module-output" name="zxltxt" />
           <element id="extracted-dir" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/jstl-1.2.jar" path-in-jar="/" />
           <element id="extracted-dir" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/sqljdbc4.jar" path-in-jar="/" />
           <element id="extracted-dir" path="$PROJECT_DIR$/WebRoot/WEB-INF/lib/gson-2.8.0.jar" path-in-jar="/" />
