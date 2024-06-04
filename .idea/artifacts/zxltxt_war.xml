@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zxltxt:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/zxltxt_war</output-path>
+    <root id="archive" name="zxltxt_war.war">
+      <element id="artifact" artifact-name="zxltxt:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -13,9 +13,9 @@
 
  Date: 23/05/2024 10:03:00
 */
-create database wsltxt;
-drop database wsltxt;
-use  wsltxt;
+create database zxltxt;
+drop database zxltxt;
+use  zxltxt;
 create database chatproject;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
